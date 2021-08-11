@@ -9950,7 +9950,7 @@ a.text-dark:hover {
   position: fixed;
   z-index: 1000;
   top: 0;
-  width: 260px;
+  width: 220px;
   height: 100%;
   background: #0c2556;
   transition: all 0.6s ease-in-out;
@@ -10468,7 +10468,7 @@ body:not(.dark) .sidebar-light .iq-sidebar-logo a span {
   top: 0;
   left: auto;
   right: 0;
-  width: calc(100% - 260px);
+  width: calc(100% - 220px);
   display: inline-block;
   z-index: 99;
   margin: 0;
@@ -13431,7 +13431,7 @@ input[type="submit"].btn-block {
   margin-right: 8px !important;
 }
 .br-theme-fontawesome-stars .br-widget a:after {
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
 }
 i.amber-text {
@@ -13985,7 +13985,7 @@ a.iq-tab-toggle .arr-next {
 }
 a.iq-tab-toggle .arr-next:before {
   content: "\f053";
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   position: absolute;
   left: 0;
@@ -18436,7 +18436,7 @@ g[aria-describedby="id-22-description"] {
 }
 .content-page {
   overflow: hidden;
-  margin-left: 260px;
+  margin-left: 220px;
   padding: 100px 15px 0;
   min-height: 100vh;
   transition: all 0.3s ease-in-out;
