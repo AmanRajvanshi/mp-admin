@@ -3,7 +3,7 @@
 		<a href="index.php" class="header-logo">
 			<img src="assets/img/logos/mp.png" class="img-fluid rounded-normal light-logo"
 				alt="logo">
-			<img src="assets/img/logos/full-width-logo.png"
+			<img src="assets/img/logos/mp.png"
 				class="img-fluid rounded-normal d-none sidebar-light-img" alt="logo">
 				<span><img src="assets/img/logos/mp-name.png"></span>
 		</a>

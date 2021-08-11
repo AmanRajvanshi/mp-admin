@@ -10229,10 +10229,10 @@ a.text-dark:hover {
   align-items: center;
 }
 .iq-sidebar-logo a span {
-  margin-left: 10px;
+  margin-left: 2px;
   color: #fff;
   font-size: 19px;
-  line-height: 42px;
+  line-height: 40px;
   padding-left: 1px;
   letter-spacing: 1.5px;
   font-weight: 600;
@@ -10343,7 +10343,7 @@ a.text-dark:hover {
     top: 0;
   }
   body.sidebar-main .iq-sidebar {
-    width: 260px;
+    width: 220px;
     left: 0;
     z-index: 999;
     -ms-box-shadow: 0 0.125rem 0.25rem rgba(0, 60, 179, 0.1);
@@ -21560,7 +21560,7 @@ button.close-popup {
   .custom-switch.custom-switch-icon
   label.custom-control-label:after {
   border-radius: 0 4px 5px 0;
-  left: 10px;
+  left: 12px;
 }
 .dark
   .change-mode
