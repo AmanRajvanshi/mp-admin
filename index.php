@@ -5,15 +5,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Market Plus-Admin</title>
-
-	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/img/logos/mp.png" />
-
 	<link rel="stylesheet" href="assets/css/backend-plugin.min.css">
 	<link rel="stylesheet" href="assets/css/backende209.css?v=1.0.0">
 </head>
 
-<body class="  ">
+<body class="">
 	<!-- loader Start -->
 	<div id="loading">
 		<div id="loading-center">
