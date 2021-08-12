@@ -48,12 +48,7 @@
 						<li class="nav-item nav-icon dropdown">
 							<a href="#" class="search-toggle dropdown-toggle" id="notification-dropdown"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-									class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24"
-									stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-								</svg>
+								<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bell" class="svg-inline--fa fa-bell fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="25" width="25"><path fill="currentColor" d="M439.39 362.29c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71zM67.53 368c21.22-27.97 44.42-74.33 44.53-159.42 0-.2-.06-.38-.06-.58 0-61.86 50.14-112 112-112s112 50.14 112 112c0 .2-.06.38-.06.58.11 85.1 23.31 131.46 44.53 159.42H67.53zM224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64z"></path></svg> 
 								<span class="bg-primary"></span>
 							</a>
 							<div class="iq-sub-dropdown dropdown-menu" aria-labelledby="notification-dropdown">
@@ -268,8 +263,7 @@
 						<li class="nav-item nav-icon dropdown">
 							<a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton2"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<img src="assets/images/Flag/flag001.png" class="img-fluid rounded-circle"
-									alt="user" style="height: 30px; min-width: 30px; width: 30px;">
+								<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="language" class="svg-inline--fa fa-language fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="40" height="35"><path fill="currentColor" d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z"></path></svg>
 								<span class="bg-primary"></span>
 							</a>
 							<div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2">
@@ -339,7 +333,7 @@
 								id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">
 								<img src="assets/images/user/1.jpg" class="img-fluid avatar-rounded" alt="user">
-								<span class="mb-0 ml-2 user-name">Shilpi Gupta</span>
+								<span class="mb-0 ml-2 user-name">Aman</span>
 							</a>
 							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
 								<li class="dropdown-item d-flex svg-icon">

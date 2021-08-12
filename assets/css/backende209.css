@@ -13694,8 +13694,8 @@ i.amber-text {
 }
 .iq-footer {
   padding: 15px;
-  margin-left: 260px;
-  width: calc(100vw - 264px);
+  margin-left: 220px;
+  width: calc(100vw - 220px);
   background: #fff;
   -ms-box-shadow: 0 0.5rem 1rem rgba(0, 60, 179, 0.05);
   -o-box-shadow: 0 0.5rem 1rem rgba(0, 60, 179, 0.05);
