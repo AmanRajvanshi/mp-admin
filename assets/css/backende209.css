@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
 :root {
   --iq-primary: #cdf;
   --iq-secondary: #dfe3ec;
@@ -49,8 +49,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif:'Comfortaa', cursive;
-  --font-family-monospace:'Comfortaa', cursive;
+  --font-family-sans-serif: "Comfortaa", cursive;
+  --font-family-monospace: "Comfortaa", cursive;
 }
 *,
 :after,
@@ -540,6 +540,28 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+.spinner {
+  height: 250px;
+  width: 250px;
+  animation: spinner 1s linear infinite;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .spinner-border {
   display: inline-block;
   width: 2rem;
@@ -19228,7 +19250,7 @@ textarea.form-control {
   z-index: 999999;
 }
 #loading-center {
-  background: url(../images/loader.gif) no-repeat scroll 50%;
+  /* background: url(../img/loader-3.svg) no-repeat scroll 50%; */
   background-size: 20%;
   width: 100%;
   height: 100%;
@@ -20938,9 +20960,9 @@ button.close-popup {
 .dark .iq-sidebar {
   background: #181818;
 }
-.dark #loading-center {
-  background-image: url(../images/dark-loader.gif);
-}
+/* .dark #loading-center {
+  background-image: url(../img/loader-3.svg);
+} */
 .dark h1,
 .dark h2,
 .dark h3,

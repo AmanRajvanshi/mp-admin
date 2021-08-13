@@ -14,6 +14,7 @@
 	<!-- loader Start -->
 	<div id="loading">
 		<div id="loading-center">
+			<img src="assets/img/loader.svg" class="spinner">
 		</div>
 	</div>
 	<!-- loader END -->
