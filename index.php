@@ -568,8 +568,6 @@
 
   <!-- Emoji picker -->
   <script src="assets/vendor/emoji-picker-element/index.js" type="module"></script>
-
-
   <!-- app JavaScript -->
   <script src="assets/js/app.js"></script>
 </body>
