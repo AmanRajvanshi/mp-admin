@@ -20,8 +20,8 @@
   <!-- loader END -->
   <!-- Wrapper Start -->
   <div class="wrapper">
-    <?php include 'sidebar.php';?>
-    <?php include 'navbar.php';?>
+    <?php include "sidebar.php"; ?>
+    <?php include "navbar.php"; ?>
     <div class="content-page">
       <div class="container-fluid">
         <div class="row">
@@ -342,7 +342,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6"></div>
             <div class="card">
               <div class="card-body">
                 <h4 class="font-weight-bold mb-3">Popular Categories</h4>
@@ -537,7 +537,7 @@
     </div>
   </div>
   <!-- Wrapper End-->
-  <?php include 'footer.php'; ?>
+  <?php include "footer.php"; ?>
   <!-- Backend Bundle JavaScript -->
   <script src="assets/js/backend-bundle.min.js"></script>
   <!-- Chart Custom JavaScript -->
