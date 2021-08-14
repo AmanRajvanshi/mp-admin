@@ -18303,7 +18303,7 @@ code {
   .custom-switch.custom-switch-icon
   label.custom-control-label
   .switch-icon-left {
-  top: 3px;
+  top: 5px;
   z-index: 1;
   left: 8px;
 }
@@ -18320,7 +18320,7 @@ code {
   .switch-icon-right {
   color: #0c2556;
   right: -23px;
-  top: 3px;
+  top: 5px;
 }
 .change-mode
   .custom-switch.custom-switch-icon
