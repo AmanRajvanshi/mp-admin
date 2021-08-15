@@ -211,7 +211,7 @@
                 </svg>
                 <span class="bg-primary"></span>
               </a>
-              <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2">
+              <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2" id="google_translate_element">
                 <div class="card shadow-none m-0 border-0">
                   <div class=" p-0 ">
                     <ul class="dropdown-menu-1 list-group list-group-flush">
