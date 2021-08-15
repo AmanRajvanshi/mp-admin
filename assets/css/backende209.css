@@ -9969,7 +9969,7 @@ a.text-dark:hover {
   position: fixed;
   z-index: 1000;
   top: 0;
-  width: 220px;
+  width: 260px;
   height: 100%;
   background: #0c2556;
   transition: all 0.6s ease-in-out;
@@ -10394,8 +10394,11 @@ a.text-dark:hover {
   transform: rotate(90deg);
   transition: all 0.3s ease-in-out;
 }
+.sidebar-layout-bottom{
+	border-bottom: 1px dotted #708090;
+}
 .sidebar-layout {
-  padding: 0 15px;
+  padding: 7px 10px;
 }
 .sidebar-layout .submenu li {
   padding-right: 0;
@@ -10487,7 +10490,7 @@ body:not(.dark) .sidebar-light .iq-sidebar-logo a span {
   top: 0;
   left: auto;
   right: 0;
-  width: calc(100% - 220px);
+  width: calc(100% - 260px);
   display: inline-block;
   z-index: 99;
   margin: 0;
@@ -13713,8 +13716,8 @@ i.amber-text {
 }
 .iq-footer {
   padding: 15px;
-  margin-left: 220px;
-  width: calc(100vw - 220px);
+  margin-left: 260px;
+  width: calc(100vw - 260px);
   background: #fff;
   -ms-box-shadow: 0 0.5rem 1rem rgba(0, 60, 179, 0.05);
   -o-box-shadow: 0 0.5rem 1rem rgba(0, 60, 179, 0.05);
@@ -18455,7 +18458,7 @@ g[aria-describedby="id-22-description"] {
 }
 .content-page {
   overflow: hidden;
-  margin-left: 220px;
+  margin-left: 260px;
   padding: 100px 15px 0;
   min-height: 100vh;
   transition: all 0.3s ease-in-out;
