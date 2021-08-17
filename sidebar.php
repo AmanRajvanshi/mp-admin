@@ -26,13 +26,24 @@
           </a>
         </li>
         <li class="sidebar-layout sidebar-layout-bottom">
-          <a href="index.php" class="svg-icon">
+          <a href="vendors.php" class="svg-icon">
             <i class="">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
               </svg>
             </i>
             <span class="ml-2">Vendors</span>
+            <!--            <p class="mb-0 w-10 badge badge-pill badge-primary">6</p>-->
+          </a>
+        </li>
+        <li class="sidebar-layout sidebar-layout-bottom">
+          <a href="vendors.php" class="svg-icon">
+            <i class="">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+              </svg>
+            </i>
+            <span class="ml-2">Feeds</span>
             <!--            <p class="mb-0 w-10 badge badge-pill badge-primary">6</p>-->
           </a>
         </li>
@@ -51,52 +62,17 @@
           </a>
           <ul id="app2" class="submenu collapse" data-parent="#iq-sidebar-toggle">
             <li class="sidebar-layout">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
+              <a href="cities.php">
                 <i class="">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </i>
                 <span class="">Cities</span>
               </a>
             </li>
           </ul>
         </li>
-        <!-- <li class="sidebar-layout">
-          <a href="#app3" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
-            <i>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </i>
-            <span class="ml-2">Cash Account</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon iq-arrow-right arrow-active" width="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </a>
-          <ul id="app3" class="submenu collapse" data-parent="#iq-sidebar-toggle">
-            <li class="sidebar-layout">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
-                <i class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </i>
-                <span class="">Pending</span>
-              </a>
-            </li>
-            <li class="sidebar-layout">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
-                <i class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </i>
-                <span class="">Approved</span>
-              </a>
-            </li>
-          </ul>
-        </li> -->
         <li class="sidebar-layout sidebar-layout-bottom">
           <a href="#app4" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
             <i>
@@ -111,7 +87,7 @@
           </a>
           <ul id="app4" class="submenu collapse" data-parent="#iq-sidebar-toggle">
             <li class="sidebar-layout sidebar-layout-bottom">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
+              <a href="leads.php">
                 <i class="">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />

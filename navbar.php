@@ -204,26 +204,6 @@
                 </div>
               </div>
             </li>
-            <li class="nav-item nav-icon dropdown">
-              <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="26" height="26">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
-                </svg>
-                <span class="bg-primary"></span>
-              </a>
-              <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2" id="google_translate_element">
-                <div class="card shadow-none m-0 border-0">
-                  <div class=" p-0 ">
-                    <ul class="dropdown-menu-1 list-group list-group-flush">
-                      <li class="dropdown-item-1 list-group-item  px-2"><a class="p-0" href="#"><img src="assets/img/flag/flag-1.png" alt="img-flaf" class="img-fluid mr-2" style="width: 15px;height: 15px;min-width: 15px;" />Hindi</a>
-                      </li>
-                      <li class="dropdown-item-1 list-group-item  px-2"><a class="p-0" href="#"><img src="assets/img/flag/flag-2.png" alt="img-flaf" class="img-fluid mr-2" style="width: 15px;height: 15px;min-width: 15px;" />English</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
             <li class="nav-item nav-icon search-content">
               <a href="#" class="search-toggle rounded" id="dropdownSearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <svg class="svg-icon text-secondary" id="h-suns" height="25" width="25" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
