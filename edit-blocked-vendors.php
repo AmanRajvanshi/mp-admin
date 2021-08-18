@@ -26,7 +26,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mb-4 mt-1">
-            <h4 class="font-weight-bold">Add Pending Verifications</h4>
+            <h4 class="font-weight-bold">Edit Blocked Vendors</h4>
 			<hr>
             <div class="row" style="padding:10px">
 				<form class="form-horizontal">

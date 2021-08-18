@@ -26,8 +26,54 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mb-4 mt-1">
-            <h4 class="font-weight-bold">Add Pending Vendors</h4>
-            <div class="row" style="padding:10px 0">
+            <h4 class="font-weight-bold">Add Active Vendors</h4>
+			<hr>
+            <div class="row" style="padding:10px">
+				<form class="form-horizontal">
+					<div class="form-group" style="padding:0 15px;">
+                        <p>Upload Picture:</p>
+                        <div class="custom-file mb-3">
+                           <input type="file" accept="image/*" class="custom-file-input" id="customFile" name="filename">
+                           <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
+                        <p>Default file:</p>
+                        <input type="file" accept="image/*" id="myFile" name="filename2">
+					</div>
+					<div class="form-group row">
+						<label class="control-label col-sm-2 align-self-center" for="name">Name:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" placeholder="Enter Name">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="control-label col-sm-2 align-self-center" for="business-name">Business's Name:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="business-name" placeholder="Enter Business's Name">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="control-label col-sm-2 align-self-center" for="contact-number">Business Contact:</label>
+						<div class="col-sm-10">
+							<input type="number" class="form-control" id="contact-number" placeholder="Enter Business Contact Number">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="control-label col-sm-2 align-self-center" for="business-email">Business Email:</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="business-email" placeholder="Enter Business Email">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="control-label col-sm-2 align-self-center" for="business-location">Business Location:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="business-location" placeholder="Enter Business Location">
+						</div>
+					</div>
+					<div class="form-group mb-0 float-right">
+						<button type="submit" class="btn btn-primary mr-2">Submit</button>
+						<button type="submit" class="btn bg-danger">Cancel</button>
+					</div>
+				</form>
             </div>
           </div>
         </div>

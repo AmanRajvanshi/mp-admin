@@ -29,14 +29,14 @@
             <h4 class="font-weight-bold">Vendors</h4>
             <div class="row" style="padding:10px 0">
               <div class="d-inline-block w-100">
-                <button type="button" class="btn btn-outline-primary mt-2 active">Pending Verifications</button>
-                <button type="button" class="btn btn-outline-primary mt-2">Active Vendors</button>
-                <button type="button" class="btn btn-outline-primary mt-2">Blocked Vendors</button>
+                <button type="button" class="btn btn-outline-primary mt-2 active" id="pending">Pending Verifications</button>
+                <button type="button" class="btn btn-outline-primary mt-2" id="active">Active Vendors</button>
+                <button type="button" class="btn btn-outline-primary mt-2" id="blocked">Blocked Vendors</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row" id="pending-verification">
+        <div class="row" id="pending">
           <div class="col-lg-12">
             <div class="card card-block card-stretch">
               <div class="card-body p-0">
@@ -99,9 +99,9 @@
 							</td>
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1">View Service</button>
-								<button type="button" class="btn btn-warning btn-sm mr-1">View On Map</button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-pending-verifications.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -133,9 +133,9 @@
 							</td>
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1">View Service</button>
-								<button type="button" class="btn btn-warning btn-sm mr-1">View On Map</button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-pending-verifications.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -168,8 +168,8 @@
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
 								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-pending-verifications.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -181,7 +181,7 @@
             </div>
           </div>
         </div>
-        <div class="row" id="active-vendors">
+        <div class="row" id="active">
           <div class="col-lg-12">
             <div class="card card-block card-stretch">
               <div class="card-body p-0">
@@ -244,9 +244,9 @@
 							</td>
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1">View Service</button>
-								<button type="button" class="btn btn-warning btn-sm mr-1">View On Map</button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -278,9 +278,9 @@
 							</td>
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1">View Service</button>
-								<button type="button" class="btn btn-warning btn-sm mr-1">View On Map</button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -313,8 +313,8 @@
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
 								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -326,7 +326,7 @@
             </div>
           </div>
         </div>
-        <div class="row" id="blocked-vendors">
+        <div class="row" id="blocked-">
           <div class="col-lg-12">
             <div class="card card-block card-stretch">
               <div class="card-body p-0">
@@ -389,9 +389,9 @@
 							</td>
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1">View Service</button>
-								<button type="button" class="btn btn-warning btn-sm mr-1">View On Map</button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -423,9 +423,9 @@
 							</td>
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1">View Service</button>
-								<button type="button" class="btn btn-warning btn-sm mr-1">View On Map</button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
@@ -458,8 +458,8 @@
 							<td>
 								<div class="d-flex justify-content-end align-items-center">
 								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1">Edit</button>
+								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors" style="color:white">Edit</a></button>
 								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
 								</div>
 							</td>
