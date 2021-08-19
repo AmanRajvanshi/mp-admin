@@ -8,6 +8,12 @@
   <link rel="shortcut icon" href="assets/img/logos/mp.png" />
   <link rel="stylesheet" href="assets/css/backend-plugin.min.css">
   <link rel="stylesheet" href="assets/css/backende209.css?v=1.0.0">
+	<style>
+	.scrollable {
+	overflow-y: auto;
+	max-height: 460px;
+	}
+	</style>
 </head>
 
 <body class="">
@@ -53,45 +59,56 @@
           </div>
           <div class="col-lg-8 col-md-12">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex align-items-center">
                       <div class="">
-                        <p class="mb-2 text-secondary">Total Profit</p>
+                        <p class="mb-2 text-secondary">Total Vendors</p>
                         <div class="d-flex flex-wrap justify-content-start align-items-center">
-                          <h5 class="mb-0 font-weight-bold">$95,595</h5>
-                          <p class="mb-0 ml-3 text-success font-weight-bold">+3.55%</p>
+                          <p class="mb-0 text-primary font-weight-bold">2468</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex align-items-center">
                       <div class="">
-                        <p class="mb-2 text-secondary">Total Expenses</p>
+                        <p class="mb-2 text-secondary">Active Vendors</p>
                         <div class="d-flex flex-wrap justify-content-start align-items-center">
-                          <h5 class="mb-0 font-weight-bold">$12,789</h5>
-                          <p class="mb-0 ml-3 text-success font-weight-bold">+2.67%</p>
+                          <p class="mb-0 text-success font-weight-bold">1234</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex align-items-center">
                       <div class="">
-                        <p class="mb-2 text-secondary">New Users</p>
+                        <p class="mb-2 text-secondary">Blocked Vendors</p>
                         <div class="d-flex flex-wrap justify-content-start align-items-center">
-                          <h5 class="mb-0 font-weight-bold">13,984</h5>
-                          <p class="mb-0 ml-3 text-danger font-weight-bold">-9.98%</p>
+                          <p class="mb-0 text-danger font-weight-bold">1234</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <div class="">
+                        <p class="mb-2 text-secondary">P. Verifications</p>
+                        <div class="d-flex flex-wrap justify-content-start align-items-center">
+                          <p class="mb-0 text-warning font-weight-bold">123</p>
                         </div>
                       </div>
                     </div>
@@ -102,7 +119,7 @@
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center flex-wrap">
-                      <h4 class="font-weight-bold">Sales Report</h4>
+                      <h4 class="font-weight-bold">Vendor Report</h4>
                       <div class="d-flex justify-content-between align-items-center">
                         <div><svg width="24" height="24" viewBox="0 0 24 24" fill="primary" xmlns="http://www.w3.org/2000/svg">
                             <rect x="3" y="3" width="18" height="18" rx="2" fill="#3378FF" />
@@ -123,10 +140,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-8">
-            <div class="card card-block card-stretch card-height">
+            <div class="card card-block card-stretch card-height scrollable">
               <div class="card-header card-header-border d-flex justify-content-between">
                 <div class="header-title">
-                  <h4 class="card-title">Top Selling Product</h4>
+                  <h4 class="card-title">Top Vendors</h4>
                 </div>
               </div>
               <div class="card-body-list">
@@ -151,6 +168,28 @@
                     </div>
                     <div class="list-style-action d-flex justify-content-end ml-auto">
                       <h6 class="font-weight-bold">$1,799</h6>
+                    </div>
+                  </li>
+                  <li class="p-3 list-item d-flex justify-content-start align-items-center">
+                    <div class="avatar">
+                      <img class="avatar avatar-img avatar-60 rounded" src="assets/images/products/13.jpg" alt="3.jpg">
+                    </div>
+                    <div class="list-style-detail ml-3 mr-2">
+                      <p class="mb-0">Stone Bluetooth Speaker</p>
+                    </div>
+                    <div class="list-style-action d-flex justify-content-end ml-auto">
+                      <h6 class="font-weight-bold">$1,099</h6>
+                    </div>
+                  </li>
+                  <li class="p-3 list-item d-flex justify-content-start align-items-center">
+                    <div class="avatar">
+                      <img class="avatar avatar-img avatar-60 rounded" src="assets/images/products/4.jpg" alt="4.jpg">
+                    </div>
+                    <div class="list-style-detail ml-3 mr-2">
+                      <p class="mb-0">Ryzen 5 Hexa Core 5600H</p>
+                    </div>
+                    <div class="list-style-action d-flex justify-content-end ml-auto">
+                      <h6 class="font-weight-bold">$9,999</h6>
                     </div>
                   </li>
                   <li class="p-3 list-item d-flex justify-content-start align-items-center">

@@ -12277,7 +12277,7 @@ a.text-dark:hover {
   position: fixed;
   z-index: 1000;
   top: 0;
-  width: 260px;
+  width: 230px;
   height: 100%;
   background: #0c2556;
   transition: all 0.6s ease-in-out;
@@ -12809,7 +12809,7 @@ body:not(.dark) .sidebar-light .iq-sidebar-logo a span {
   top: 0;
   left: auto;
   right: 0;
-  width: calc(100% - 260px);
+  width: calc(100% - 230px);
   display: inline-block;
   z-index: 99;
   margin: 0;
@@ -16648,8 +16648,8 @@ i.amber-text {
 
 .iq-footer {
   padding: 15px;
-  margin-left: 260px;
-  width: calc(100vw - 260px);
+  margin-left: 230px;
+  width: calc(100vw - 230px);
   background: #fff;
   -ms-box-shadow: 0 0.5rem 1rem rgba(0, 60, 179, 0.05);
   -o-box-shadow: 0 0.5rem 1rem rgba(0, 60, 179, 0.05);
@@ -22436,7 +22436,7 @@ g[aria-describedby="id-22-description"] {
 
 .content-page {
   overflow: hidden;
-  margin-left: 260px;
+  margin-left: 230px;
   padding: 100px 15px 0;
   min-height: 100vh;
   transition: all 0.3s ease-in-out;

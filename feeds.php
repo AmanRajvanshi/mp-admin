@@ -26,15 +26,15 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mb-4 mt-1">
-            <h4 class="font-weight-bold">View Service</h4>
+            <h4 class="font-weight-bold">Feeds</h4>
             <div class="row" style="padding:10px 0">
               <div class="d-inline-block w-100">
-                <button type="button" class="btn btn-outline-primary mt-2 active">Feeds</button>
-                <button type="button" class="btn btn-outline-danger mt-2 ">Reported</button>
+                <button type="button" class="btn btn-primary mt-2" onclick="showfeeds()">Feeds</button>
+                <button type="button" class="btn btn-danger mt-2" onclick="showtable()">Reported</button>
               </div>
             </div>
 			<div class="container-fluid">
-				<div class="row" style="padding:5px 0">
+				<div class="row" style="padding:5px 0" id="feeds">
 					<div class="col-sm-12 col-md-3 col-lg-3"></div>
 					<div class="col-sm-12 col-md-6 col-lg-6">
 						<div class="card" style="padding:10px">
@@ -65,7 +65,7 @@
 					</div>
 					<div class="col-sm-12 col-md-3 col-lg-3"></div>
 				</div>
-				<div class="row" style="padding:5px 0">
+				<div class="row" style="padding:5px 0;" id="table">
 					<div class="col-sm-12">
 						<div class="card">
 						<div class="card-header d-flex justify-content-between">
@@ -75,28 +75,30 @@
 						</div>
 						<div class="card-body">
 							<div class="table-responsive">
-								<table id="datatable-1" class="table data-table table-striped table-bordered">
-									<thead>
-									<tr>
-										<th>Feed ID</th>
-										<th>Vendor</th>
-										<th>Post</th>
-										<th>Comment</th>
-										<th>Action</th>
-									</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>#1212</td>
-											<td>ACDB</td>
-											<td></td>
-											<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure?</td>
-											<td>
-												<button type="button" class="btn btn-primary mt-2"><a href="single-reported-feeds.php" style="color:white;">View</a></button>
-											</td>
-										</tr>
-									</tbody>
-								</table>
+							<table id="datatable-1" class="table data-table table-striped table-bordered">
+								<thead>
+								<tr>
+									<th>SNo.</th>
+									<th>Feed_ID</th>
+									<th>Vendor</th>
+									<th>Post</th>
+									<th>Comment</th>
+									<th>Action</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>1</td>
+									<td>#12121</td>
+									<td>Lorem, ipsum.</td>
+									<td></td>
+									<td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, modi.</td>
+									<td>
+										<button type="button" class="btn btn-primary mt-2"><a href="single-reported-feeds.php" style="color:white">View</a></button>
+									</td>
+								</tr>
+								</tbody>
+							</table>
 							</div>
 						</div>
 						</div>
@@ -125,6 +127,22 @@
   <script src="assets/js/slider.js"></script>
   <script src="assets/vendor/emoji-picker-element/index.js" type="module"></script>
   <script src="assets/js/app.js"></script>
+  <script>
+
+	  $(document).ready(function() {
+		$('#table').hide();
+	  })
+	  function showfeeds()
+		{
+			$('#feeds').show();
+			$('#table').hide();
+		}
+	  function showtable()
+		{
+			$('#feeds').hide();
+			$('#table').show();
+		}
+  </script>
 </body>
 
 </html>

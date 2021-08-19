@@ -8,6 +8,15 @@
   <link rel="shortcut icon" href="assets/img/logos/mp.png" />
   <link rel="stylesheet" href="assets/css/backend-plugin.min.css">
   <link rel="stylesheet" href="assets/css/backende209.css?v=1.0.0">
+  <style>
+	.table-responsive #DataTables_Table_1_filter label {
+		padding-right: 20px;
+	}
+
+	.table-responsive #DataTables_Table_2_filter label {
+		padding-right: 20px;
+	}
+  </style>
 </head>
 
 <body class="">
@@ -29,9 +38,9 @@
             <h4 class="font-weight-bold">Vendors</h4>
             <div class="row" style="padding:10px 0">
               <div class="d-inline-block w-100">
-                <button type="button" class="btn btn-outline-primary mt-2 active" id="pending">Pending Verifications</button>
-                <button type="button" class="btn btn-outline-primary mt-2" id="active">Active Vendors</button>
-                <button type="button" class="btn btn-outline-primary mt-2" id="blocked">Blocked Vendors</button>
+                <button type="button" class="btn btn-outline-primary mt-2" onclick="showpending()">Pending Verifications</button>
+                <button type="button" class="btn btn-outline-primary mt-2" onclick="showactive()">Active Vendors</button>
+                <button type="button" class="btn btn-outline-primary mt-2" onclick="showblocked()">Blocked Vendors</button>
               </div>
             </div>
           </div>
@@ -218,106 +227,106 @@
 						</thead>
 						<tbody>
 							<tr class="white-space-no-wrap">
-							<td class="pr-0 ">
-								1
-							</td>
-							<td class="">
-								<div class="active-project-1 d-flex align-items-center mt-0 ">
-								<div class="h-avatar is-medium">
-									<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
-								</div>
-								<div class="data-content">
-									<div>
-									<span class="font-weight-bold">Vari tech</span>
+								<td class="pr-0 ">
+									1
+								</td>
+								<td class="">
+									<div class="active-project-1 d-flex align-items-center mt-0 ">
+									<div class="h-avatar is-medium">
+										<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
 									</div>
-									<p class="m-0 text-secondary small">
-									Christian Bale
-									</p>
-								</div>
-								</div>
-							</td>
-							<td>
-								+91 9876543210
-							</td>
-							<td>
-								abcd@email.com
-							</td>
-							<td>
-								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
-								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
-								</div>
-							</td>
+									<div class="data-content">
+										<div>
+										<span class="font-weight-bold">Vari tech</span>
+										</div>
+										<p class="m-0 text-secondary small">
+										Christian Bale
+										</p>
+									</div>
+									</div>
+								</td>
+								<td>
+									+91 9876543210
+								</td>
+								<td>
+									abcd@email.com
+								</td>
+								<td>
+									<div class="d-flex justify-content-end align-items-center">
+									<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+									<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+									<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
+									<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
+									</div>
+								</td>
 							</tr>
 							<tr class="white-space-no-wrap">
-							<td class="pr-0 ">
-								2
-							</td>
-							<td class="">
-								<div class="active-project-1 d-flex align-items-center mt-0 ">
-								<div class="h-avatar is-medium">
-									<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
-								</div>
-								<div class="data-content">
-									<div>
-									<span class="font-weight-bold">Vari tech</span>
+								<td class="pr-0 ">
+									1
+								</td>
+								<td class="">
+									<div class="active-project-1 d-flex align-items-center mt-0 ">
+									<div class="h-avatar is-medium">
+										<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
 									</div>
-									<p class="m-0 text-secondary small">
-									Christian Bale
-									</p>
-								</div>
-								</div>
-							</td>
-							<td>
-								+91 9876543210
-							</td>
-							<td>
-								abcd@email.com
-							</td>
-							<td>
-								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
-								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
-								</div>
-							</td>
+									<div class="data-content">
+										<div>
+										<span class="font-weight-bold">Vari tech</span>
+										</div>
+										<p class="m-0 text-secondary small">
+										Christian Bale
+										</p>
+									</div>
+									</div>
+								</td>
+								<td>
+									+91 9876543210
+								</td>
+								<td>
+									abcd@email.com
+								</td>
+								<td>
+									<div class="d-flex justify-content-end align-items-center">
+									<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+									<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+									<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
+									<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
+									</div>
+								</td>
 							</tr>
 							<tr class="white-space-no-wrap">
-							<td class="pr-0 ">
-								3
-							</td>
-							<td class="">
-								<div class="active-project-1 d-flex align-items-center mt-0 ">
-								<div class="h-avatar is-medium">
-									<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
-								</div>
-								<div class="data-content">
-									<div>
-									<span class="font-weight-bold">Vari tech</span>
+								<td class="pr-0 ">
+									1
+								</td>
+								<td class="">
+									<div class="active-project-1 d-flex align-items-center mt-0 ">
+									<div class="h-avatar is-medium">
+										<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
 									</div>
-									<p class="m-0 text-secondary small">
-									Christian Bale
-									</p>
-								</div>
-								</div>
-							</td>
-							<td>
-								+91 9876543210
-							</td>
-							<td>
-								abcd@email.com
-							</td>
-							<td>
-								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
-								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
-								</div>
-							</td>
+									<div class="data-content">
+										<div>
+										<span class="font-weight-bold">Vari tech</span>
+										</div>
+										<p class="m-0 text-secondary small">
+										Christian Bale
+										</p>
+									</div>
+									</div>
+								</td>
+								<td>
+									+91 9876543210
+								</td>
+								<td>
+									abcd@email.com
+								</td>
+								<td>
+									<div class="d-flex justify-content-end align-items-center">
+									<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+									<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+									<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
+									<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -326,7 +335,7 @@
             </div>
           </div>
         </div>
-        <div class="row" id="blocked-">
+        <div class="row" id="blocked">
           <div class="col-lg-12">
             <div class="card card-block card-stretch">
               <div class="card-body p-0">
@@ -363,106 +372,106 @@
 						</thead>
 						<tbody>
 							<tr class="white-space-no-wrap">
-							<td class="pr-0 ">
-								1
-							</td>
-							<td class="">
-								<div class="active-project-1 d-flex align-items-center mt-0 ">
-								<div class="h-avatar is-medium">
-									<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
-								</div>
-								<div class="data-content">
-									<div>
-									<span class="font-weight-bold">Vari tech</span>
+								<td class="pr-0 ">
+									1
+								</td>
+								<td class="">
+									<div class="active-project-1 d-flex align-items-center mt-0 ">
+									<div class="h-avatar is-medium">
+										<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
 									</div>
-									<p class="m-0 text-secondary small">
-									Christian Bale
-									</p>
-								</div>
-								</div>
-							</td>
-							<td>
-								+91 9876543210
-							</td>
-							<td>
-								abcd@email.com
-							</td>
-							<td>
-								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
-								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
-								</div>
-							</td>
+									<div class="data-content">
+										<div>
+										<span class="font-weight-bold">Vari tech</span>
+										</div>
+										<p class="m-0 text-secondary small">
+										Christian Bale
+										</p>
+									</div>
+									</div>
+								</td>
+								<td>
+									+91 9876543210
+								</td>
+								<td>
+									abcd@email.com
+								</td>
+								<td>
+									<div class="d-flex justify-content-end align-items-center">
+									<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+									<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+									<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-blocked-vendors.php" style="color:white">Edit</a></button>
+									<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
+									</div>
+								</td>
 							</tr>
 							<tr class="white-space-no-wrap">
-							<td class="pr-0 ">
-								2
-							</td>
-							<td class="">
-								<div class="active-project-1 d-flex align-items-center mt-0 ">
-								<div class="h-avatar is-medium">
-									<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
-								</div>
-								<div class="data-content">
-									<div>
-									<span class="font-weight-bold">Vari tech</span>
+								<td class="pr-0 ">
+									1
+								</td>
+								<td class="">
+									<div class="active-project-1 d-flex align-items-center mt-0 ">
+									<div class="h-avatar is-medium">
+										<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
 									</div>
-									<p class="m-0 text-secondary small">
-									Christian Bale
-									</p>
-								</div>
-								</div>
-							</td>
-							<td>
-								+91 9876543210
-							</td>
-							<td>
-								abcd@email.com
-							</td>
-							<td>
-								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors.php" style="color:white">Edit</a></button>
-								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
-								</div>
-							</td>
+									<div class="data-content">
+										<div>
+										<span class="font-weight-bold">Vari tech</span>
+										</div>
+										<p class="m-0 text-secondary small">
+										Christian Bale
+										</p>
+									</div>
+									</div>
+								</td>
+								<td>
+									+91 9876543210
+								</td>
+								<td>
+									abcd@email.com
+								</td>
+								<td>
+									<div class="d-flex justify-content-end align-items-center">
+									<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+									<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+									<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-blocked-vendors.php" style="color:white">Edit</a></button>
+									<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
+									</div>
+								</td>
 							</tr>
 							<tr class="white-space-no-wrap">
-							<td class="pr-0 ">
-								3
-							</td>
-							<td class="">
-								<div class="active-project-1 d-flex align-items-center mt-0 ">
-								<div class="h-avatar is-medium">
-									<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
-								</div>
-								<div class="data-content">
-									<div>
-									<span class="font-weight-bold">Vari tech</span>
+								<td class="pr-0 ">
+									1
+								</td>
+								<td class="">
+									<div class="active-project-1 d-flex align-items-center mt-0 ">
+									<div class="h-avatar is-medium">
+										<img class="avatar rounded-circle" alt="user-icon" src="assets/images/user/1.jpg">
 									</div>
-									<p class="m-0 text-secondary small">
-									Christian Bale
-									</p>
-								</div>
-								</div>
-							</td>
-							<td>
-								+91 9876543210
-							</td>
-							<td>
-								abcd@email.com
-							</td>
-							<td>
-								<div class="d-flex justify-content-end align-items-center">
-								<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;text-decoration:none;">View Service</a></button>
-								<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
-								<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-active-vendors" style="color:white">Edit</a></button>
-								<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
-								</div>
-							</td>
+									<div class="data-content">
+										<div>
+										<span class="font-weight-bold">Vari tech</span>
+										</div>
+										<p class="m-0 text-secondary small">
+										Christian Bale
+										</p>
+									</div>
+									</div>
+								</td>
+								<td>
+									+91 9876543210
+								</td>
+								<td>
+									abcd@email.com
+								</td>
+								<td>
+									<div class="d-flex justify-content-end align-items-center">
+									<button type="button" class="btn btn-primary btn-sm mr-1"><a href="view-service.php" style="color:white;">View Service</a></button>
+									<button type="button" class="btn btn-warning btn-sm mr-1"><a href="view-on-map.php" style="color:white;">View On Map</a></button>
+									<button type="button" class="btn btn-info btn-sm mr-1"><a href="edit-blocked-vendors.php" style="color:white">Edit</a></button>
+									<button type="button" class="btn btn-danger btn-sm mr-1" onclick="return confirm ('Are You sure you want to delete?')">Delete</button>
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -491,6 +500,33 @@
   <script src="assets/js/slider.js"></script>
   <script src="assets/vendor/emoji-picker-element/index.js" type="module"></script>
   <script src="assets/js/app.js"></script>
+	<script>
+		$(document).ready(function() {
+		$('#active').hide();
+		})
+
+		$(document).ready(function() {
+		$('#blocked').hide();
+		})
+		function showpending()
+		{
+			$('#pending').show();
+			$('#active').hide();
+			$('#blocked').hide();
+		}
+		function showactive()
+		{
+			$('#pending').hide();
+			$('#active').show();
+			$('#blocked').hide();
+		}
+		function showblocked()
+		{
+			$('#pending').hide();
+			$('#active').hide();
+			$('#blocked').show();
+		}
+	</script>
 </body>
 
 </html>

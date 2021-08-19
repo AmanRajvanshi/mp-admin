@@ -8,14 +8,11 @@
         </ul>
       </div>
       <div class="col-lg-6 text-right">
-        <span class="mr-1">
-          Copyright
+        <span class="mr-1">A quality product by  <a href="http://webixun.com" target="http://webixun.com">Webiuxn Infoways</a> ©
           <script>
-            document.write(new Date().getFullYear())
-
-          </script>© <a href="http://webixun.com" class="">Webiuxn Infoways</a>
-          All Rights Reserved.
-        </span>
+             document.write(new Date().getFullYear())
+          </script>
+        .</span>
       </div>
     </div>
   </div>
