@@ -22050,11 +22050,12 @@ print {
 }
 
 .scroller::-webkit-scrollbar-thumb {
-  background-color: #3378ff;
+  background-color: #6600ff !important;
+  border-radius:50px !important;
 }
 
 .scroller::-webkit-scrollbar-track {
-  background-color: #cdf;
+  background-color: #cdf  !important;
 }
 
 .scroller::-moz-scrollbar-thumb {
@@ -22066,7 +22067,7 @@ print {
 }
 
 ::-webkit-scrollbar {
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
 
 ::-moz-scrollbar {
@@ -22074,18 +22075,18 @@ print {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 20px;
+  background: #00cc99 !important;
+  border-radius: 50px !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #8f9fbc;
-  border-radius: 20px;
+	background-color: #6600ff !important;
+	border-radius:50px !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #01041b;
-  border-radius: 20px;
+	background-color: #6600aa !important;
+	border-radius:50px !important;
 }
 
 ::-moz-scrollbar-thumb {
@@ -22099,9 +22100,8 @@ print {
 }
 
 ::-webkit-scrollbar {
-  width: 4px;
-  height: 4px;
-  border-radius: 5px;
+  width: 8px !important;
+  border-radius: 5px !important;
 }
 
 ::-moz-scrollbar {
@@ -25426,7 +25426,8 @@ button.close-popup {
 }
 
 .dark ::-webkit-scrollbar-track {
-  background: #252525;
+	background: #00cc99;
+	border-radius: 50px;
 }
 
 .dark .btn-danger,

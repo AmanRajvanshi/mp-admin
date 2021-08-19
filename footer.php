@@ -12,7 +12,7 @@
           <script>
              document.write(new Date().getFullYear())
           </script>
-        .</span>
+        </span>
       </div>
     </div>
   </div>

@@ -26,8 +26,8 @@
   <!-- loader END -->
   <!-- Wrapper Start -->
   <div class="wrapper">
-    <?php include 'sidebar.php';?>
-    <?php include 'navbar.php';?>
+    <?php include "sidebar.php"; ?>
+    <?php include "navbar.php"; ?>
     <div class="content-page">
       <div class="container-fluid">
         <div class="row">
@@ -66,7 +66,7 @@
                       <div class="">
                         <p class="mb-2 text-secondary">Total Vendors</p>
                         <div class="d-flex flex-wrap justify-content-start align-items-center">
-                          <p class="mb-0 text-primary font-weight-bold">2468</p>
+                          <p class="mb-0 text-primary font-weight-bold">2591</p>
                         </div>
                       </div>
                     </div>
@@ -262,7 +262,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="card card-block card-stretch card-height">
+            <div class="card card-block card-stretch card-height scrollable" style="height:440px">
               <div class="card-header d-flex justify-content-between">
                 <div class="header-title">
                   <h4 class="card-title">Upcoming Events</h4>
@@ -306,6 +306,71 @@
                 <div class="table-responsive">
                   <table class="table table-spacing mb-0">
                     <tbody>
+                      <tr class="white-space-no-wrap">
+                        <td>
+                          <h6 class="mb-0 text-uppercase text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            30 Jun, Tue
+                          </h6>
+                        </td>
+                        <td class="pl-0 py-3">
+                          Big Billion Day Sale
+                        </td>
+                      </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>
+                          <h6 class="mb-0 text-uppercase text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            09 July, Mon
+                          </h6>
+                        </td>
+                        <td class="pl-0 py-3">
+                          5% Off on Mobile
+                        </td>
+                      </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>
+                          <h6 class="mb-0 text-uppercase text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            15 Aug, Sun
+                          </h6>
+                        </td>
+                        <td class="pl-0 py-3">
+                          Electronics Sale
+                        </td>
+                      </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>
+                          <h6 class="mb-0 text-uppercase text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            26 Oct, Thu
+                          </h6>
+                        </td>
+                        <td class="pl-0 py-3">
+                          Fashionable Sale
+                        </td>
+                      </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>
+                          <h6 class="mb-0 text-uppercase text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pr-2" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            25 Dec, Fri
+                          </h6>
+                        </td>
+                        <td class="pl-0 py-3">
+                          5% Off on Cloths
+                        </td>
+                      </tr>
                       <tr class="white-space-no-wrap">
                         <td>
                           <h6 class="mb-0 text-uppercase text-secondary">
@@ -543,7 +608,7 @@
                             <div>Danniw Yatt</div>
                           </div>
                         </td>
-                        <td>
+               		 			<td>
                           <p class="mb-0 text-danger d-flex justify-content-start align-items-center">
                             <small><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" viewBox="0 0 24 24" fill="none">
                                 <circle cx="12" cy="12" r="8" fill="#F42B3D"></circle>
@@ -576,7 +641,7 @@
     </div>
   </div>
   <!-- Wrapper End-->
-  <?php include 'footer.php'; ?>
+  <?php include "footer.php"; ?>
   <script src="assets/js/backend-bundle.min.js"></script>
   <script src="assets/js/customizer.js"></script>
   <script src="assets/js/sidebar.js"></script>
