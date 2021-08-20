@@ -8,10 +8,11 @@
   <link rel="shortcut icon" href="assets/img/logos/mp.png" />
   <link rel="stylesheet" href="assets/css/backend-plugin.min.css">
   <link rel="stylesheet" href="assets/css/backende209.css?v=1.0.0">
+
 	<style>
 	.scrollable {
-	overflow-y: auto;
-	max-height: 460px;
+		overflow-y: auto;
+		max-height: 460px;
 	}
 	</style>
 </head>
@@ -108,7 +109,7 @@
                       <div class="">
                         <p class="mb-2 text-secondary">P. Verifications</p>
                         <div class="d-flex flex-wrap justify-content-start align-items-center">
-                          <p class="mb-0 text-warning font-weight-bold">123</p>
+                          <p class="mb-0 font-weight-bold">123</p>
                         </div>
                       </div>
                     </div>
@@ -241,7 +242,7 @@
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
-                      <h6 class="font-weight-bold">Active Users</h6>
+                      <h6 class="font-weight-bold">Active Vendors</h6>
                       <div class="d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -440,9 +441,9 @@
                   </table>
 
                 </div>
-                <div class="d-flex justify-content-end align-items-center border-top-table p-3">
+                <!-- <div class="d-flex justify-content-end align-items-center border-top-table p-3">
                   <button class="btn btn-secondary btn-sm">See All</button>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -486,7 +487,7 @@
             </div>
           </div>
           <div class="col-lg-8 col-md-12">
-            <div class="card">
+            <div class="card scrollable" style="max-height:482px">
               <div class="card-header d-flex justify-content-between">
                 <div class="header-title">
                   <h4 class="card-title">New Customer</h4>
@@ -618,11 +619,71 @@
                         </td>
                         <td class="text-right">$199.99</td>
                       </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>02 Jun 2020</td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar-45 mr-2">
+                              <img src="assets/images/user/5.jpg" class="img-fluid rounded-circle" alt="image">
+                            </div>
+                            <div>Kevin Adkins</div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-success d-flex justify-content-start align-items-center">
+                            <small><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="8" fill="#3cb72c"></circle>
+                              </svg>
+                            </small> Completed
+                          </p>
+                        </td>
+                        <td class="text-right">$233.00</td>
+                      </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>05 Jun 2020</td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar-45 mr-2">
+                              <img src="assets/images/user/1.jpg" class="img-fluid rounded-circle" alt="image">
+                            </div>
+                            <div>Max Lynn</div>
+                          </div>
+                        </td>
+                        <td>
+                          <p class="mb-0 text-warning d-flex justify-content-start align-items-center">
+                            <small><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="8" fill="#db7e06"></circle>
+                              </svg>
+                            </small>Pending
+                          </p>
+                        </td>
+                        <td class="text-right">$150.01</td>
+                      </tr>
+                      <tr class="white-space-no-wrap">
+                        <td>06 Jun 2020</td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar-45 mr-2">
+                              <img src="assets/images/user/3.jpg" class="img-fluid rounded-circle" alt="image">
+                            </div>
+                            <div>Danniw Yatt</div>
+                          </div>
+                        </td>
+               		 			<td>
+                          <p class="mb-0 text-danger d-flex justify-content-start align-items-center">
+                            <small><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="8" fill="#F42B3D"></circle>
+                              </svg>
+                            </small>Cancelled
+                          </p>
+                        </td>
+                        <td class="text-right">$199.99</td>
+                      </tr>
                     </tbody>
                   </table>
-                  <div class="d-flex justify-content-end align-items-center border-top-table p-3">
+                  <!-- <div class="d-flex justify-content-end align-items-center border-top-table p-3">
                     <button class="btn btn-secondary btn-sm">See All</button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
