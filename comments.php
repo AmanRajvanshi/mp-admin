@@ -20,183 +20,39 @@
   <!-- loader END -->
   <!-- Wrapper Start -->
   <div class="wrapper">
-    <?php include "sidebar.php"; ?>
-    <?php include "navbar.php"; ?>
+    <?php include 'sidebar.php';?>
+    <?php include 'navbar.php';?>
     <div class="content-page">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mb-4 mt-1">
             <h4 class="font-weight-bold">Comments</h4>
 						<div class="container-fluid">
-							<div class="row" style="padding:10px">
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
+							<div class="list-group" style="margin:10px;">
+								<a class="list-group-item list-group-item-action" style="border-bottom:1px dotted #eeeeee">
+									<div class="d-flex w-100 justify-content-between">
+											<h5 class="mb-1 text-white">List group item heading</h5>
+											<small>3 days ago</small>
 									</div>
-								</div>
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
+									<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+									<small>Donec id elit non mi porta.</small>
+								</a>
+								<a class="list-group-item list-group-item-action" style="border-bottom:1px dotted #eeeeee">
+									<div class="d-flex w-100 justify-content-between">
+											<h5 class="mb-1 text-white">List group item heading</h5>
+											<small>3 days ago</small>
 									</div>
-								</div>
-							</div>
-							<div class="row" style="padding:10px">
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
+									<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+									<small>Donec id elit non mi porta.</small>
+								</a>
+								<a class="list-group-item list-group-item-action" style="border-bottom:1px dotted #eeeeee">
+									<div class="d-flex w-100 justify-content-between">
+											<h5 class="mb-1 text-white">List group item heading</h5>
+											<small>3 days ago</small>
 									</div>
-								</div>
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row" style="padding:10px">
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row" style="padding:10px">
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row" style="padding:10px">
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class=" col-sm-12 col-md-6 col-lg-6">
-									<div class="card mb-2">
-										<div class="row no-gutters">
-											<div class="col-md-6 col-lg-4">
-												<img src="assets/images/page-img/08.jpg" class="card-img" alt="#">
-											</div>
-											<div class="col-md-6 col-lg-8">
-												<div class="card-body">
-													<h4 class="card-title">Card title</h4>
-													<p class="card-text">This is a wider card with supporting text below as a natural lead-in. a little bit longer.</p>
-													<p class="card-text"><small class="text-muted">3 mins ago</small></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+									<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+									<small>Donec id elit non mi porta.</small>
+								</a>
 							</div>
 						</div>
           </div>
@@ -206,7 +62,7 @@
   </div>
   <!-- Page end  -->
   <!-- Wrapper End-->
-  <?php include "footer.php"; ?>
+  <?php include 'footer.php'; ?>
   <script src="assets/js/backend-bundle.min.js"></script>
   <script src="assets/js/customizer.js"></script>
   <script src="assets/js/sidebar.js"></script>
