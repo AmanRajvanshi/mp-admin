@@ -20,8 +20,8 @@
   <!-- loader END -->
   <!-- Wrapper Start -->
   <div class="wrapper">
-    <?php include 'sidebar.php';?>
-    <?php include 'navbar.php';?>
+    <?php include "sidebar.php"; ?>
+    <?php include "navbar.php"; ?>
     <div class="content-page">
       <div class="container-fluid">
         <div class="row">
@@ -206,7 +206,7 @@
   </div>
   <!-- Page end  -->
   <!-- Wrapper End-->
-  <?php include 'footer.php'; ?>
+  <?php include "footer.php"; ?>
   <script src="assets/js/backend-bundle.min.js"></script>
   <script src="assets/js/customizer.js"></script>
   <script src="assets/js/sidebar.js"></script>
