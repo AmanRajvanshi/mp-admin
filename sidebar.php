@@ -1,9 +1,9 @@
 <div class="iq-sidebar  sidebar-default  sidebar-light">
   <div class="iq-sidebar-logo d-flex justify-content-between">
     <a href="index.php" class="header-logo">
-      <img src="assets/img/logos/mp.png" class="img-fluid rounded-normal light-logo" alt="logo">
-      <img src="assets/img/logos/mp.png" class="img-fluid rounded-normal d-none sidebar-light-img" alt="logo">
-      <span><img src="assets/img/logos/mp-name.png"></span>
+    <img src="assets/img/logos/mp.png" class="img-fluid rounded-normal light-logo" alt="logo">
+    <img src="assets/img/logos/mp.png" class="img-fluid rounded-normal d-none sidebar-light-img" alt="logo">
+    <span><img src="assets/img/logos/mp-name.png"></span>
     </a>
     <div class="side-menu-bt-sidebar-1">
       <svg xmlns="http://www.w3.org/2000/svg" class="text-light wrapper-menu" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -22,6 +22,17 @@
               </svg>
             </i>
             <span class="ml-2">Dashboard</span>
+            <!--            <p class="mb-0 w-10 badge badge-pill badge-primary">6</p>-->
+          </a>
+        </li>
+        <li class="sidebar-layout sidebar-layout-bottom">
+          <a href="add-setup.php" class="svg-icon">
+            <i class="">
+							<svg class="svg-icon" width="18" id="iq-ui-1-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" style="stroke-dasharray: 83, 103; stroke-dashoffset: 0;"></path>
+							</svg>
+            </i>
+            <span class="ml-2">Add Setup</span>
             <!--            <p class="mb-0 w-10 badge badge-pill badge-primary">6</p>-->
           </a>
         </li>
