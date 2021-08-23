@@ -108,7 +108,7 @@
               </a>
             </li>
             <li class="sidebar-layout ">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
+              <a href="request.php">
                 <i class="">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
@@ -133,7 +133,7 @@
           </a>
           <ul id="app5" class="submenu collapse" data-parent="#iq-sidebar-toggle">
             <li class="sidebar-layout sidebar-layout-bottom">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
+              <a href="create-user.php">
                 <i class="">
                   <svg class="svg-icon mr-0 text-secondary" id="h-02-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
@@ -142,24 +142,14 @@
                 <span class="">Create</span>
               </a>
             </li>
-            <li class="sidebar-layout sidebar-layout-bottom">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
-                <i class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"></path>
-                  </svg>
-                </i>
-                <span class="">Login Account</span>
-              </a>
-            </li>
             <li class="sidebar-layout">
-              <a href="#form1" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
+              <a href="user-table.php">
                 <i class="">
                   <svg class="svg-icon mr-0 text-secondary" id="h-01-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </i>
-                <span class="">User Profile</span>
+                <span class="">Users</span>
               </a>
             </li>
           </ul>
